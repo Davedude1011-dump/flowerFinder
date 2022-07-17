@@ -3,6 +3,11 @@ function openClose() {
     document.getElementById("images").style.display = "none"
     document.body.style.backgroundColor = "grey"
 }
+function closeOpenYellow() {
+    document.getElementById("overlay").style.display = "none"
+    document.getElementById("images").style.display = "block"
+    document.body.style.backgroundColor = "yellow"
+}
 function closeOpenGreen() {
     document.getElementById("overlay").style.display = "none"
     document.getElementById("images").style.display = "block"
@@ -142,3 +147,52 @@ function bayTree() {
 }
 
 // ---------------------------------------------------------------------------------------------
+
+function yellowIris() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapYellowIris.png')"
+    openClose()
+}
+function lilyPads() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapLilyPads.png')"
+    openClose()
+}
+function fringedWillowherb() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapFringedWillowherb.png')"
+    openClose()
+}
+function gynuraBicolor() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapGynuraBicolor.png')"
+    openClose()
+}
+function hippurisVulgaris() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapHippurisVulgaris.png')"
+    openClose()
+}
+function newZealandFlax() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapNewZealandFlax.png')"
+    openClose()
+}
+function bonsaiTree() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapBonsaiTree.png')"
+    openClose()
+}
+function myrtle() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapMyrtle.png')"
+    openClose()
+}
+function bougainvilleaSpectabilis() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapBougainvilleaSpectabilis.png')"
+    openClose()
+}
+function nightBloomingJasmine() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapNightBloomingJasmine.png')"
+    openClose()
+}
+function sophoraProsrata() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapSophoraProsrata.png')"
+    openClose()
+}
+function polysciasFruticosa() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapPolysciasFruticosa.png')"
+    openClose()
+}
