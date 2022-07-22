@@ -3,6 +3,11 @@ function openClose() {
     document.getElementById("images").style.display = "none"
     document.body.style.backgroundColor = "grey"
 }
+function closeOpenOrange() {
+    document.getElementById("overlay").style.display = "none"
+    document.getElementById("images").style.display = "block"
+    document.body.style.backgroundColor = "orange"
+}
 function closeOpenYellow() {
     document.getElementById("overlay").style.display = "none"
     document.getElementById("images").style.display = "block"
@@ -194,5 +199,40 @@ function sophoraProsrata() {
 }
 function polysciasFruticosa() {
     document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapPolysciasFruticosa.png')"
+    openClose()
+}
+
+// ---------------------------------------------------------------------------------------------
+
+function phoriumTenax() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapPhoriumTenax.png')"
+    openClose()
+}
+function russianSage() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapRussianSage.png')"
+    openClose()
+}
+function tickseed() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapTickseed.png')"
+    openClose()
+}
+function lupine() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapLupine.png')"
+    openClose()
+}
+function germanGarlic() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapGermanGarlic.png')"
+    openClose()
+}
+function agapanthusAngela() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapAgapanthusAngela.png')"
+    openClose()
+}
+function redHotPoker() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapRedHotPoker.png')"
+    openClose()
+}
+function vervains() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapVervains.png')"
     openClose()
 }
