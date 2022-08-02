@@ -3,6 +3,11 @@ function openClose() {
     document.getElementById("images").style.display = "none"
     document.body.style.backgroundColor = "grey"
 }
+function closeOpenPink() {
+    document.getElementById("overlay").style.display = "none"
+    document.getElementById("images").style.display = "block"
+    document.body.style.backgroundColor = "rgb(255, 84, 229)"
+}
 function closeOpenOrange() {
     document.getElementById("overlay").style.display = "none"
     document.getElementById("images").style.display = "block"
@@ -234,5 +239,80 @@ function redHotPoker() {
 }
 function vervains() {
     document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapVervains.png')"
+    openClose()
+}
+
+// ---------------------------------------------------------------------------------------------
+
+function dragonsBlood() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapDragonsBlood.png')"
+    openClose()
+}
+function ladysMantle() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapLadysMantle.png')"
+    openClose()
+}
+function purpleToadflax() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapPurpleToadflax.png')"
+    openClose()
+}
+function indianShot() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapIndianShot.png')"
+    openClose()
+}
+function cardoon() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapCardoon.png')"
+    openClose()
+}
+function purpletopVervain() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapPurpletopVervain.png')"
+    openClose()
+}
+function laurustinus() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapLaurustinus.png')"
+    openClose()
+}
+function cabbageTree() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapCabbageTree.png')"
+    openClose()
+}
+function wintercreeper() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapWintercreeper.png')"
+    openClose()
+}
+function warmisterBroom() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapWarmisterBloom.png')"
+    openClose()
+}
+function californiaFescue() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapCaliforniaFescue.png')"
+    openClose()
+}
+function plantainLily() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapPlantainLily.png')"
+    openClose()
+}
+function alpineSeaHolly() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapAlpineSeaHolly.png')"
+    openClose()
+}
+function mexicanFanPalm() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapMexicanFanPalm.png')"
+    openClose()
+}
+function pyrethrum() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapPyrethrum.png')"
+    openClose()
+}
+function gardenDahlia() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapGardenDahlia.png')"
+    openClose()
+}
+function capeMargueriteDaisyBushes() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapCapeMargueriteDaisyBushes.png')"
+    openClose()
+}
+function commonColeus() {
+    document.getElementById("overlay").style.backgroundImage = "url('images/maps/mapCommonColeus.png')"
     openClose()
 }
