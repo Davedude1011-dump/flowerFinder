@@ -33,6 +33,14 @@ body {
     height: 45vh;
     border-radius: 15px;
 }
+@media screen and (orientation: portrait) {
+    .image {
+        opacity: 1;
+        cursor: pointer;
+        height: 11vh;
+        border-radius: 15px;
+    }
+}
 .image:hover {
     opacity: 0.7
 }
@@ -41,6 +49,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
+    margin-top: 10%;
 }
 
 .backButtonMap {
@@ -75,6 +84,7 @@ body {
     font-family: Roboto;
     -webkit-text-stroke: 3px;
     -webkit-text-fill-color: transparent;
+    white-space: nowrap;
 }
 
 .topImage {
